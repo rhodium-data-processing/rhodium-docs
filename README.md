@@ -1,4 +1,4 @@
-rhodium-docs
+Rhodium Documentation
 ============
 
 Documentation for Rhodium.
