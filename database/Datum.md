@@ -13,7 +13,7 @@ A type to represent values.
 Public Interface Functions
 --------------------------
 
-Datum(Value value)
+`Datum(Value value)`
 
 Constructor. _SHOULD NEVER BE USED- USE_ `DataObject::getField()` _INSTEAD._
 
