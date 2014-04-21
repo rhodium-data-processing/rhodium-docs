@@ -4,7 +4,6 @@ class Table
 A class that provides access to a table in a Rhodium database.
 
 Public Interface Functions
-
 --------------------------
 
 `Table(std::string name, std::vector<Field> fields)`
