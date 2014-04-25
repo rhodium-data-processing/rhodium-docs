@@ -28,8 +28,44 @@ Invalid. Used by `Table::typeOfField()` to denote that the field does not exist.
 
 `Int = 1`
 
-Basic integer. 64-bit.
+Standard 64-bit integer.
 
 `Decimal = 2`
 
 Standard double-precision decimal.
+
+`String = 3`
+
+Standard sequence of characters.
+
+`Bool = 4`
+
+Standard boolean value.
+
+`DateTime = 5`
+
+Standard date-time value.
+
+`IntArray = 6`
+
+Array of integers.
+
+`DecimalArray = 7`
+
+Array of decimals.
+
+`StringArray = 8`
+
+Array of strings.
+
+`BoolArray =  9`
+
+Array of booleans.
+
+`DateTimeArray = 10`
+
+Array of date-times.
+
+`Link = 11`
+
+Link to another object in the database.
