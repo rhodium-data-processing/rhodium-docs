@@ -9,6 +9,7 @@ Public Interface Functions
 `Database(std::string filename)`
 
 Constructor. Loads the database indicated by `filename` and creates the new object.
+Throws a `DatabaseIoException` if anything went wrong.
 
 Parameters:
 
@@ -84,3 +85,9 @@ Returns:
 `void write()`
 
 Writes the database to the file. Throws a `DatabaseIoException` if anything went wrong.
+
+-----------------------------------------------------------
+
+`void close()`
+
+Closes the database file. Throws a `DatabaseIoException` if anything went wrong.

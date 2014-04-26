@@ -14,4 +14,5 @@ int main()
 	obj.getField("bar").setValue("Lorem Iipum");
 	obj.getField("whatever").array().setValues([1.5, 2.5, 3.14]);
 	db.write();
+	db.close();
 }
