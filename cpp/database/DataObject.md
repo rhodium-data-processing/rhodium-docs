@@ -27,3 +27,17 @@ Parameters:
 Returns:
 
 `Datum&`- the datum containing the value for the field.
+
+-----------------------------------------------------------
+
+`ArrayDatum& getArrayField(std::string name)`
+
+Gets the array datum containing the value for the given field.
+
+Parameters:
+
+`std::string name`- the name of the field.
+
+Returns:
+
+`ArrayDatum&`- the array datum containing the value for this field.

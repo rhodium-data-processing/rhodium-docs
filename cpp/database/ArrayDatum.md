@@ -16,18 +16,6 @@ Parameters:
 
 -----------------------------------------------------------
 
-`ArrayDatum& array()`
-
-Converts this object to an array.
-Must be used whenever performing operations on array data
-because `DataObject::getField()` returns a `Datum`, not an `ArrayDatum`.
-
-Returns:
-
-`ArrayDatum&`- the object converted to an `ArrayDatum`.
-
------------------------------------------------------------
-
 `Value[] getValues()`
 
 Really self-explanatory. Gets the values as an array.
