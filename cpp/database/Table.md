@@ -6,15 +6,13 @@ A class that provides access to a table in a Rhodium database.
 Public Interface Functions
 --------------------------
 
-`Table(std::string name, std::vector<Field> fields)`
+`Table(std::string name)`
 
 Constructor. _SHOULD NEVER BE USED- USE_ `Database::addTable()` _INSTEAD._
 
 Parameters:
 
 `std::string name`- the name of the table.
-
-`std::vector<Field> fields`- a vector containing the fields.
 
 -----------------------------------------------------------
 
@@ -25,20 +23,6 @@ Renames the table.
 Parameters:
 
 `std::string name`- the new name for the table.
-
------------------------------------------------------------
-
-`FieldType typeOfField(std::string name)`
-
-Gets the type of the field indicated by `name`.
-
-Parameters:
-
-`std::string name`- the name of the field.
-
-Returns:
-
-`FieldType`- an enum representing the type of the field. `Invalid` (0) if the field does not exist.
 
 -----------------------------------------------------------
 

@@ -16,7 +16,7 @@ Parameters:
 
 -----------------------------------------------------------
 
-`Datum& getField(std::string name)`
+`Datum& getField(std::string name)` or `Datum& operator[](std::string name)`
 
 Gets the datum containing the value for the given field.
 

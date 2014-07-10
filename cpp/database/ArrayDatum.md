@@ -16,7 +16,7 @@ Parameters:
 
 -----------------------------------------------------------
 
-`Value[] getValues()`
+`Value[] values()`
 
 Really self-explanatory. Gets the values as an array.
 
@@ -26,7 +26,7 @@ Returns:
 
 -----------------------------------------------------------
 
-`std::vector<Value> getValueVector()`
+`std::vector<Value> valueVector()`
 
 The name says it all. Gets the values as a vector.
 
@@ -53,5 +53,3 @@ Blinding glimpse of the obvious. Sets the values.
 Parameters:
 
 `std::vector<Value> values`- the new values.
-
------------------------------------------------------------
