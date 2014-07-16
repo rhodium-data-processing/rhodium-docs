@@ -7,3 +7,13 @@ Public Interface Functions
 --------------------------
 
 `DatabaseWriter(Database db, Table t, StreamComponent upstream)`
+
+Constructor. Creates the database writer.
+
+Parameters:
+
+`Database db`- the database to which the data is to be written.
+
+`Table t`- the table to which the data is to be written.
+
+`StreamComponent upstream`- the upstream component from which the data is to be read.
